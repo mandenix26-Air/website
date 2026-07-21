@@ -372,4 +372,23 @@ html {
   font-size: 1rem;
   font-weight: bold;
   text-decoration: none;
-} 
+}
+
+@media (max-width: 768px) {
+  h1, .carousel-caption h1 {
+    font-size: 1.8rem !important;
+  }
+
+  p, .carousel-caption p {
+    font-size: 1rem !important;
+  }
+
+  .carousel-item {
+    background-position: center;
+  }
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
