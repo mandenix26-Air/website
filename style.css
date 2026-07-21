@@ -1,0 +1,375 @@
+body {
+  background-color: #f4f6f8;
+  color: #212529;
+}
+
+.navbar {
+  background-color: #ffffff !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid #e9ecef;
+}
+
+.navbar-brand {
+  background-color: #ffffff;
+  padding: 8px 12px;
+  border-radius: 16px;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand img {
+  display: block;
+  max-height: 60px;
+}
+
+@media (max-width: 991.98px) {
+      .navbar-nav {
+        margin: 0;
+      }
+      .get-started-btn {
+        margin-top: 10px;
+      }
+    }
+
+.get-started-btn {
+  background-color: #0d6efd !important;
+  border-color: #0d6efd !important;
+  color: #fff !important;
+}
+
+.get-started-btn:hover,
+.get-started-btn:focus {
+  background-color: #0b5ed7 !important;
+  border-color: #0a58ca !important;
+}
+
+.carousel-item {
+      height: 100vh;
+      background-size: cover;
+      background-position: top center;
+      position: relative;
+    }
+
+    .carousel-item .overlay {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.30);
+      z-index: 1;
+    }
+
+    .carousel-caption {
+      z-index: 2;
+      top: auto;
+      bottom: 14%;
+      height: auto;
+      padding-bottom: 20px;
+    }
+
+    .carousel-caption h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .carousel-caption p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .carousel-caption .btn {
+      margin-top: 20px;
+    }
+    .about-section h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.about-section p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.about-section .btn {
+  margin-top: 10px;
+}
+
+.nav-tabs .nav-link {
+  color: #0d6efd;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.our-services h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.our-services p.lead {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Service Box Styles */
+.service-box {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+  font-size: 3rem;
+  color: #007bff;
+}
+
+.service-box h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.service-box p {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #555;
+}
+
+.service-box .btn {
+  margin-top: 20px;
+}
+
+/* Responsive Grid */
+@media (max-width: 767px) {
+  .service-box {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .service-box {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .service-box {
+    padding: 40px;
+  }
+}
+.projects-section {
+  background-color: #f9f9f9;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav .nav-link {
+  color: #333;
+  margin: 0 10px;
+  border: none;
+  font-weight: 500;
+}
+
+.nav .nav-link.active,
+.nav .nav-link:hover {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  height: 300px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease;
+}
+
+.project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+..product-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-card.up {
+  transform: translateY(-15px);
+}
+
+.product-card.down {
+  transform: translateY(15px);
+}
+
+.product-card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: opacity 0.3s ease;
+  text-align: center;
+}
+
+.product-card:hover .overlay {
+  opacity: 1;
+}
+
+.product-card .overlay h5 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    height: 250px;
+  }
+}
+.contact-section {
+  background-color: #f8f9fa;
+}
+
+.contact-section h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-section .form-control {
+  border-radius: 0.375rem;
+  box-shadow: none;
+  border: 1px solid #ccc;
+}
+
+.contact-section .form-control:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}
+
+.contact-section .btn-primary {
+  padding: 10px 25px;
+  font-weight: 500;
+}
+
+.contact-map {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .contact-map {
+    min-height: 300px;
+  }
+}
+.footer-section {
+  background-color: #212529;
+}
+
+.footer-section h4.footer-logo {
+  font-weight: bold;
+  font-size: 1.75rem;
+  margin-bottom: 15px;
+  color: #f2f5f3;
+}
+
+.footer-section h5 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-section p, 
+.footer-section a {
+  color: #ccc;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #ffffff;
+  text-decoration: underline;   
+}
+
+.social-icons a {
+  color: #ccc;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #e8ece7;
+}  
+html {
+  scroll-behavior: smooth;
+}
+.social-top {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #fdfcfc;
+  font-size: 15px;
+  background: #007bff; /* Default Facebook blue */
+  transition: background 0.2s;
+  text-decoration: none;
+}
+.social-top:nth-child(1) { background: #007bff; } /* Facebook */
+.social-top:nth-child(2) { background: #007bff; } /* X (Twitter) */
+.social-top:nth-child(3) { background: #007bff; } /* Instagram */
+.social-top:nth-child(4) { background: #007bff; } /* LinkedIn */
+.social-top:hover { opacity: 0.8; }
+
+.phone-icon-bg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #007bff 0%, #1529e2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.phone-icon-bg i {
+  color: #fff;
+  font-size: 20px;
+}
+.phone-shake {
+  animation: phone-shake 0.7s infinite;
+}
+@keyframes phone-shake {
+  0% { transform: rotate(0deg);}
+  20% { transform: rotate(10deg);}
+  40% { transform: rotate(20deg);}
+  60% { transform: rotate(10deg);}
+  80% { transform: rotate(20deg);}
+  100% { transform: rotate(0deg);}
+}
+.phone-number {
+  color: #030303;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+} 
